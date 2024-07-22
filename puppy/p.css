@@ -73,4 +73,49 @@ footer{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+/* Responsiveness */
+@media screen and (max-width:578px){
+    .pflex1 p{
+        font-size: 25px;
+    }
+    .pflex1{
+        height: 180px;
+    }
+}
+@media screen and (max-width:510px){
+    .pflex1 p{
+        font-size: 20px;
+    }
+    .pflex1{
+        height: 157px;
+    }
+}
+
+
+@media screen and (max-width:425px){
+   .flex1{
+    display: block;
+    margin-top: 30px;
+   } 
+   .pflex1{
+    display: none;
+   }
+   .flex2{
+    display: block;
+   }
+   .puppy-1,
+   .puppy-2,
+   .puppy-3,
+   .puppy-4{
+       width: 70%;
+       margin: auto;
+   }
+   .puppy-1{
+    margin-bottom: 30px;
+   }
+   .puppy-3{
+    margin-bottom: 30px;
+   }
+  
+}
 
